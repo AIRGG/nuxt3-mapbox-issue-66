@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { MarkerOptions } from 'mapbox-gl';
-import { ref, watch } from 'vue';
-import { defineMapboxMarker } from '#imports';
+import { MarkerOptions } from "mapbox-gl";
+import { ref, watch } from "vue";
+import { defineMapboxMarker } from "#imports";
 
 const props = defineProps<{
   markerId: string;
@@ -27,7 +27,7 @@ const marker = defineMapboxMarker(
       ref="markerRef"
       class="marker"
       style="
-        background-image: url('https://cdn4.iconfinder.com/data/icons/small-n-flat/24/map-marker-512.png');
+        background-image: url('https://www.pngall.com/wp-content/uploads/2017/05/Map-Marker-Free-Download-PNG.png');
         width: 40px;
         height: 40px;
         background-size: 100%;
